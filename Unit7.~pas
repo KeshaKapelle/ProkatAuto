@@ -1,0 +1,31 @@
+unit Unit7;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, QuickRpt, ExtCtrls;
+
+type
+  TForm7 = class(TForm)
+    QuickRep1: TQuickRep;
+    QRBand1: TQRBand;
+    QRBand2: TQRBand;
+    QRBand3: TQRBand;
+    QRBand4: TQRBand;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form7: TForm7;
+
+implementation
+
+uses Unit4;
+
+{$R *.dfm}
+
+end.
